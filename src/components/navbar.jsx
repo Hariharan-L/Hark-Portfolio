@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "../css/navbar.css";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-awesome-reveal";
 const Navbar = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);
 
@@ -14,7 +14,6 @@ const Navbar = () => {
 
   return (
     <div>
-      <Fade top>
       <header className="nav-down">
        <div href="#" className="logo">Hark</div>
         <ul className={`nav-menu ${isMenuActive ? "active" : ""}`}>
@@ -31,7 +30,6 @@ const Navbar = () => {
           <span className="bar"></span>
         </div>
       </header>
-      </Fade>
     </div>
   );
 };

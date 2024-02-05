@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/skill.css";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import java from "../assets/java.png";
 import c from "../assets/C.png";
 import cpp from "../assets/C++.png";
@@ -20,7 +20,7 @@ const Skills = () =>{
         <div id="skill" className="Skill-Container">
           <div className="Skill">
             <div className="title">Programing Skills</div>
-              <Fade top delay={100}>
+              <Fade direction="down" triggerOnce="true" delay={100}>
               <div className="first-row">
                 <img src={html} alt="html"/>
                 <img src={css} alt="css"/>
@@ -30,7 +30,7 @@ const Skills = () =>{
                 <img src={mysql} alt="mysql"/>
               </div>
               </Fade>
-              <Fade top delay={200}>
+              <Fade direction="down"  triggerOnce="true" delay={400}>
               <div className="second-row">
                 <img src={python} alt="python"/>
                 <img src={java} alt="java"/>

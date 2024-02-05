@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import { useInView } from 'react-intersection-observer';
 import "../css/about.css";
 import hp from "../assets/IMG-20220710-WA0006.jpg";
@@ -18,11 +18,11 @@ const About = () => {
   return (
     <div id="about" className="container-about-1">
       <div className="image" ref={imgRef}>
-        <Fade bottom when={imgInView} duration={1000} delay={300 }>
+        <Fade direction="down" triggerOnce="true" when={imgInView} duration={1000} delay={300 }>
           <img src={hp} alt="hp" />
         </Fade>
       </div>
-      <Fade bottom when={paraInView} duration={1000} delay={500 }>
+      <Fade direction="down" triggerOnce="true" when={paraInView} duration={1000} delay={100}>
         <p className="details" ref={paraRef}>
           Passionate programmer with a flair for creative website designs, I see coding as an art form.
           Daily mobile game sessions fuel my creativity, bringing a unique perspective to my work.
@@ -35,7 +35,7 @@ const About = () => {
       <div className="Education">
         My Education        
         <div className="Studies">
-        <Fade top cascade duration={1000} delay={400}>
+        <Fade direction="down" triggerOnce="true" duration={1000} delay={400}>
           <div className="Education-container-1">
             B.E Electronics and Communication.
             <p>2021-2025<br/>Currently studiying 6th semester at <br/>Kongu Engineering College, Erode.<br/>CGPA: 8.19.</p>

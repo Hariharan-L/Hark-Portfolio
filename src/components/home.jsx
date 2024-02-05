@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import "../css/home.css";
 import { useTypewriter} from "react-simple-typewriter";
 
@@ -38,7 +38,7 @@ const Home = () => {
       <div className="neon-mist2"></div>
       <div className="home">
       <hr className={` line-top ${isFonLeftVisible ? 'fon-left-visible' : ''}`}/>
-      <Fade top>
+      <Fade direction="up" triggerOnce="true">
         <div>
         <div className="fname">Hello 👋, I'm</div>
         <div className="name">Hariharan L</div>
