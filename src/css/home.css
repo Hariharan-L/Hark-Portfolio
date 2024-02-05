@@ -1,0 +1,201 @@
+.neon-mist1 {
+  display: flex;
+  overflow-x: hidden;
+  position: relative;
+  border-radius: 50%;
+  padding: 130px;
+  left: 70%;
+  filter: blur(300px);
+  background-color: #00e1ff;
+}
+.neon-mist2 {
+  display: inline-block;
+  overflow-x: hidden;
+  position: relative;
+  border-radius: 50%;
+  padding: 160px;
+  top: 500px;
+  filter: blur(250px);
+  background-color: #a339ff;
+}
+.home {
+  display: flex;
+  position: relative;
+  left: 200px;
+  top: -400px;
+  margin-bottom: 37px;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fname {
+  color: #fff;
+  font-size: 2.3rem;
+}
+.name {
+  color: #fff;
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+.home span {
+  color: #00e1ff;
+  font-size: 3.2rem;
+  position: absolute;
+  width: max-content;
+  top: 100%;
+}
+.home span::before {
+  content: "";
+  height: 60px;
+  width: 2px;
+  position: absolute;
+  top: 35px;
+  right: -8px;
+  background: #00e1ff;
+  transform: translateY(-45%);
+  animation: blink 0.7s infinite;
+}
+.home span.stop-blinking::before {
+  animation: none;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.fon {
+  display: flex;
+  position: absolute;
+  font-size: 35px;
+  top: 250px;
+  color: #fff;
+}
+.fon a {
+  color: #fff;
+}
+.fon a i {
+  margin: 0 30px 0 0;
+  border: 0;
+  padding: 0;
+}
+.fon a i:hover {
+  color: #00e1ff;
+  transition: 0.4s;
+  scale: 1.2;
+}
+.fon-left {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 260px;
+  left: -80px;
+  font-size: 35px;
+  color: #fff;
+  transition: 0.5s;
+}
+.line-top {
+  position: fixed;
+  height: 0;
+  top: 130px;
+  left: 66px;
+  opacity: 0;
+}
+.line-top.fon-left-visible {
+  height: 100px;
+  opacity: 1;
+  transition: height 1s ease-in;
+}
+.line-bottom {
+  position: fixed;
+  opacity: 0;
+  height: 0;
+  left: 66px;
+  top: 500px;
+}
+.line-bottom.fon-left-visible {
+  opacity: 1;
+  height: 100px;
+  transition: height 1s ease-in;
+}
+.fon-left a {
+  color: #fff;
+}
+
+.fon-left a i {
+  margin: 20px 0;
+  border: 0;
+}
+
+.fon-left a i:hover {
+  color: #00e1ff;
+  transition: 0.4s;
+  transform: scale(1.2);
+}
+.fon-left.fon-left-visible {
+  left: 50px;
+}
+
+/*2xl*/
+/* @media (max-width: 1536px) {
+} */
+/*xl*/
+/*lg*/
+@media (max-width: 1024px) {
+  .home {
+    left: 70px;
+    top: -400px;
+  }
+  .home span::before {
+    height: 40px;
+    top: 20px;
+  }
+  .fon {
+    top: 150px;
+  }
+  .home span,
+  .fname,
+  .name {
+    font-size: 200%;
+  }
+}
+/*md*/
+@media (max-width: 768px) {
+  .home {
+    left: 70px;
+    top: -500px;
+  }
+  .home span::before {
+    height: 40px;
+    top: 20px;
+  }
+  .fon {
+    top: 150px;
+  }
+  .home span,
+  .fname,
+  .name {
+    font-size: 200%;
+  }
+}
+/*sm*/
+@media (max-width: 475px) {
+  .home {
+    left: 50px;
+    top: -500px;
+  }
+  .home span::before {
+    height: 30px;
+    top: 17px;
+  }
+  .fon {
+    top: 130px;
+    font-size: 30px;
+  }
+  .home span,
+  .fname,
+  .name {
+    font-size: 150%;
+  }
+}

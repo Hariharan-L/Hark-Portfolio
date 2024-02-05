@@ -1,0 +1,59 @@
+.neon-mist3 {
+  display: inline-block;
+  overflow-x: hidden;
+  position: relative;
+  border-radius: 50%;
+  padding: 150px;
+  top: 900px;
+  left: 40%;
+  filter: blur(300px);
+  background-color: #00aeff;
+}
+.title {
+  position: relative;
+  font-size: 1.7rem;
+  top: -100px;
+  margin-left: 640px;
+  margin-right: 640px;
+  color: #fff;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  left: 90px;
+  bottom: 0;
+  width: 50px;
+  border-radius: 5px;
+  border-bottom: 3px solid #00ff84;
+  transition: 1s;
+}
+.title:hover::before {
+  width: 230px;
+  left: 0;
+}
+.Skill-Container {
+  position: relative;
+  top: 650px;
+}
+.Skill {
+  position: relative;
+  left: 30px;
+  top: -150px;
+}
+.Skill img {
+  width: 70px;
+  cursor: pointer;
+  margin: 0 50px 70px;
+  transition: 1s;
+}
+.Skill img:hover {
+  scale: 1.2;
+}
+.first-row {
+  display: flex;
+  justify-content: center;
+}
+.second-row {
+  display: flex;
+  justify-content: center;
+}
