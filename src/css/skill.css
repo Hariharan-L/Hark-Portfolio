@@ -4,7 +4,7 @@
   position: relative;
   border-radius: 50%;
   padding: 150px;
-  top: 900px;
+  top: 400px;
   left: 40%;
   filter: blur(300px);
   background-color: #00aeff;
@@ -33,7 +33,7 @@
 }
 .Skill-Container {
   position: relative;
-  top: 650px;
+  top: 250px;
 }
 .Skill {
   position: relative;

@@ -6,24 +6,22 @@ import hp from "../assets/IMG-20220710-WA0006.jpg";
 
 const About = () => {
   const [imgRef, imgInView] = useInView({
-    triggerOnce: true,
     threshold: 1,
   });
 
   const [paraRef, paraInView] = useInView({
-    triggerOnce: true,
     threshold: 0.4,
   });
 
   return (
     <div id="about" className="container-about-1">
       <div className="image" ref={imgRef}>
-        <Fade direction="down" triggerOnce="true" when={imgInView} duration={1000} delay={300 }>
+        <Fade direction="down" triggerOnce="true" when={imgInView} cascade duration={1000} delay={600}>
           <img src={hp} alt="hp" />
         </Fade>
       </div>
-      <Fade direction="down" triggerOnce="true" when={paraInView} duration={1000} delay={100}>
-        <p className="details" ref={paraRef}>
+      <Fade direction="down" triggerOnce="true" when={paraInView} duration={1000} delay={200}>
+        <div><p className="details" ref={paraRef}>
           Passionate programmer with a flair for creative website designs, I see coding as an art form.
           Daily mobile game sessions fuel my creativity, bringing a unique perspective to my work.
           Thriving in teamwork, I contribute ideas while being supportive and entertaining.
@@ -31,6 +29,7 @@ const About = () => {
           Whether it's crafting seamless code or enhancing user experiences, I'm dedicated to the art of innovation.
           Let's collaborate and build amazing things together!.
         </p>
+        </div>
       </Fade>
       <div className="Education">
         My Education        
