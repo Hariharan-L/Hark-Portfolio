@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 import "../css/home.css";
 import { useTypewriter} from "react-simple-typewriter";
 
-export const Home = () => {
+const Home = () => {
   const [text] = useTypewriter({
     words: ['Python Developer.','MERN Stack Developer.'],
     loop: {},
@@ -73,3 +73,4 @@ export const Home = () => {
     </div>
   );
 }
+export default Home;

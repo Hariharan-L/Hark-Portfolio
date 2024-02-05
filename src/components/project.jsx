@@ -1,9 +1,10 @@
 import React from "react";
 import "../css/project.css";
-export const Project = ()=>{
+const Project = ()=>{
   return(
     <div>
       
     </div>
   )
 }
+export default Project;

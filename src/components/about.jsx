@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import "../css/about.css";
 import hp from "../assets/IMG-20220710-WA0006.jpg";
 
-export const About = () => {
+const About = () => {
   const [imgRef, imgInView] = useInView({
     triggerOnce: true,
     threshold: 1,
@@ -56,3 +56,4 @@ export const About = () => {
 };
 
 
+export default About;

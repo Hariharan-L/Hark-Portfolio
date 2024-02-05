@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "../css/navbar.css";
 import { Fade } from "react-reveal";
-export const Navbar = () => {
+const Navbar = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);
 
   const toggleMenu = () => {
@@ -35,3 +35,4 @@ export const Navbar = () => {
     </div>
   );
 };
+export default Navbar;

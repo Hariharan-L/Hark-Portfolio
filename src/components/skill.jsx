@@ -13,7 +13,7 @@ import mysql from "../assets/MySql.png";
 import git from "../assets/git.png";
 import js from "../assets/js.png";
 
-export const Skills = () =>{
+const Skills = () =>{
   return(
     <div>
       <div className="neon-mist3"></div>
@@ -44,3 +44,4 @@ export const Skills = () =>{
     </div>
   )
 }
+export default Skills;
