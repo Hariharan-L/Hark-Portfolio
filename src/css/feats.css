@@ -42,12 +42,98 @@
   justify-content: space-evenly;
 }
 .Feats-Container .coding-container img {
-  margin-left: 100px;
   width: 400px;
   border-radius: 30px;
 }
+.coding-container {
+  position: relative;
+  overflow: hidden;
+}
+.presentation-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.coding-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(33, 33, 33) 0%,
+    rgba(0, 0, 0, 0.324) 95%
+  );
+  border-radius: 30px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1; /* Ensure the gradient layer is behind the text */
+}
+
+.coding-container:hover::before {
+  opacity: 1;
+}
+
+.text-area-coding {
+  top: 120px;
+  left: 200px;
+  transform: translate(-50%, -50%);
+  color: #eaeaea;
+  position: absolute;
+  width: 370px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.coding-container:hover .text-area-coding {
+  opacity: 1;
+}
+
 .Feats-Container .presentation-container img {
-  margin-right: 100px;
   width: 400px;
   border-radius: 30px;
+}
+
+.presentation-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(35, 35, 35) 0%,
+    rgba(0, 0, 0, 0.324) 95%
+  );
+  border-radius: 29px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.presentation-container:hover::before {
+  opacity: 1;
+}
+
+.text-area-presentation {
+  top: 260px;
+  left: 200px;
+  transform: translate(-50%, -50%);
+  color: #eaeaea;
+  position: absolute;
+  width: 370px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2; 
+}
+.text-area-presentation h4 {
+  position: relative;
+  left: 15px;
+}
+.presentation-container:hover .text-area-presentation {
+  opacity: 1;
 }
