@@ -1,0 +1,53 @@
+.neon-mist4 {
+  display: inline-block;
+  overflow-x: hidden;
+  position: relative;
+  width: 300px;
+  padding: 100px;
+  top: -50px;
+  left: 500px;
+  filter: blur(250px);
+  border-radius: 100% 0% 50% 50% / 0% 0% 100% 100%;
+  background-color: #ff9900;
+  z-index: -1;
+}
+.Feats-title {
+  background: linear-gradient(to top, #fd4c00, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.8rem;
+  position: relative;
+  top: -100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.Feats-page {
+  position: relative;
+  top: -30px;
+}
+.Feats-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 20px;
+  border-bottom: 3px solid #fff;
+}
+.Feats-Container {
+  position: relative;
+  top: -200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Feats-Container .coding-container img {
+  margin-left: 100px;
+  width: 400px;
+  border-radius: 30px;
+}
+.Feats-Container .presentation-container img {
+  margin-right: 100px;
+  width: 400px;
+  border-radius: 30px;
+}

@@ -4,18 +4,25 @@
   position: relative;
   border-radius: 50%;
   padding: 150px;
-  top: 400px;
+  top: 350px;
   left: 40%;
-  filter: blur(300px);
+  filter: blur(250px);
   background-color: #00aeff;
+}
+.Skill-total {
+  background-color: #0a031a;
+  padding-bottom: 300px;
 }
 .title {
   position: relative;
   font-size: 1.7rem;
   top: -100px;
-  margin-left: 640px;
+  margin-left: 630px;
   margin-right: 640px;
-  color: #fff;
+  background: linear-gradient(to top, rgb(228, 254, 255), rgb(0, 107, 68));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .title::before {
   content: "";
@@ -31,14 +38,10 @@
   width: 230px;
   left: 0;
 }
-.Skill-Container {
-  position: relative;
-  top: 250px;
-}
 .Skill {
   position: relative;
   left: 30px;
-  top: -150px;
+  top: 50;
 }
 .Skill img {
   width: 70px;

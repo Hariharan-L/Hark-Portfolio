@@ -20,7 +20,7 @@ const About = () => {
           <img src={hp} alt="hp" />
         </Fade>
       </div>
-      <Fade direction="down" triggerOnce="true" when={paraInView} duration={1000} delay={200}>
+      <Fade direction="down" triggerOnce="true" when={paraInView} duration={1000} delay={900}>
         <div><p className="details" ref={paraRef}>
           Passionate programmer with a flair for creative website designs, I see coding as an art form.
           Daily mobile game sessions fuel my creativity, bringing a unique perspective to my work.
@@ -32,7 +32,7 @@ const About = () => {
         </div>
       </Fade>
       <div className="Education">
-        My Education        
+        <div className="text-gradient">My Education  </div>      
         <div className="Studies">
         <Fade direction="down" triggerOnce="true" duration={1000} delay={400}>
           <div className="Education-container-1">

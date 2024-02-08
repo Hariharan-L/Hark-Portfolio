@@ -4,6 +4,7 @@ import Home from'./components/home';
 import About from './components/about';
 import Skills from './components/skill';
 import  Project  from './components/project';
+import Feats from './components/feats';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
+      <Feats/>
       <Project/>
     </div>
   );

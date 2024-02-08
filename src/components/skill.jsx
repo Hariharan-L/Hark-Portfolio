@@ -16,30 +16,32 @@ import js from "../assets/js.png";
 const Skills = () =>{
   return(
     <div>
+      <div id="skill" className="Skill-total">
       <div className="neon-mist3"></div>
-        <div id="skill" className="Skill-Container">
           <div className="Skill">
+            <Fade direction="down"  triggerOnce="true" delay={100}>
             <div className="title">Programing Skills</div>
-              <Fade direction="down" triggerOnce="true" delay={100}>
-              <div className="first-row">
-                <img src={html} alt="html"/>
-                <img src={css} alt="css"/>
-                <img src={js} alt="js"/>
-                <img src={react} alt="react"/>
-                <img className="mongo-db" src={mongodb} alt="mongodb"/>
-                <img src={mysql} alt="mysql"/>
-              </div>
-              </Fade>
-              <Fade direction="down"  triggerOnce="true" delay={400}>
-              <div className="second-row">
-                <img src={python} alt="python"/>
-                <img src={java} alt="java"/>
-                <img src={c} alt="c"/>
-                <img src={cpp} alt="cpp"/>
-                <img src={git} alt="git"/>
-              </div>
-              </Fade>
-          </div>
+            </Fade>
+            <Fade direction="down" triggerOnce="true" delay={200}>
+            <div className="first-row">
+              <img src={html} alt="html"/>
+              <img src={css} alt="css"/>
+              <img src={js} alt="js"/>
+              <img src={react} alt="react"/>
+              <img className="mongo-db" src={mongodb} alt="mongodb"/>
+              <img src={mysql} alt="mysql"/>
+            </div>
+            </Fade>
+            <Fade direction="down"  triggerOnce="true" delay={800}>
+            <div className="second-row">
+              <img src={python} alt="python"/>
+              <img src={java} alt="java"/>
+              <img src={c} alt="c"/>
+              <img src={cpp} alt="cpp"/>
+              <img src={git} alt="git"/>
+            </div>
+            </Fade>
+        </div>
         </div>
     </div>
   )

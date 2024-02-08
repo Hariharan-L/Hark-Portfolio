@@ -46,11 +46,16 @@
   transform: skewX(45deg) translateX(-500px);
 }
 .Education {
-  color: #fff;
   font-size: 2.1rem;
   position: relative;
   top: 50px;
   margin-right: 200px;
+}
+.text-gradient {
+  background: linear-gradient(to top, #fff, #ff68b3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .Education:before {
   content: "";
@@ -61,6 +66,7 @@
   border-bottom: 3px solid #ff4ba5;
 }
 .Studies {
+  color: #fff;
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
