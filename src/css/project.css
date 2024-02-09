@@ -1,0 +1,36 @@
+/* .neon-mist5 {
+  display: inline-block;
+  overflow-y: hidden;
+  position: relative;
+  width: 50px;
+  height: 40px;
+  top: 400px;
+  left: 300px;
+  filter: blur(30px);
+  border-radius: 50%;
+  background: #ff0022;
+} */
+.Project-title {
+  background: linear-gradient(to top, #ffa4a4, #bc0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.8rem;
+  position: relative;
+  width: 125px;
+  left: 720px;
+  margin-bottom: 100px;
+}
+.Project-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  width: 20px;
+  border-bottom: 3px solid #ff0000;
+  transition: 0.7s;
+}
+.Project-title:hover::before {
+  left: 0;
+  width: 115px;
+}

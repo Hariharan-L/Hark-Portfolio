@@ -19,9 +19,8 @@
   font-size: 1.8rem;
   position: relative;
   top: -100px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  left: 730px;
+  width: 90px;
   margin-bottom: 100px;
 }
 .Feats-page {
@@ -32,8 +31,14 @@
   content: "";
   position: absolute;
   bottom: 0;
+  left: 30px;
   width: 20px;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #ffc517;
+  transition: 0.7s;
+}
+.Feats-title:hover::before {
+  left: 0;
+  width: 75px;
 }
 .Feats-Container {
   position: relative;
@@ -128,7 +133,7 @@
   width: 370px;
   opacity: 0;
   transition: opacity 0.3s ease;
-  z-index: 2; 
+  z-index: 2;
 }
 .text-area-presentation h4 {
   position: relative;

@@ -29,7 +29,7 @@ const Feats=()=>{
                 <ul>
                   <li>IIT Madras MECHANICA: Presented paper and selected for final round on "Dynamic behaviour of high-speed gears with active vibration control." </li>
                   <li>MIT CSMIT: Participated and Presented a paper on "Wireless Sensors Networks".</li>
-                  <li>KEC IEEE: Presented a paper and won KEC - 3rd prize on "Electric Vehicle".</li>
+                  <li>KEC IEEE: Presented a paper and won KEC - 2nd prize on "Electric Vehicle".</li>
                 </ul>
                 <h3>Project presentation</h3>
                 <h4>Solid Waste remover</h4>
