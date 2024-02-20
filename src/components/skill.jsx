@@ -32,7 +32,7 @@ const Skills = () =>{
               <img src={mysql} alt="mysql"/>
             </div>
             </Fade>
-            <Fade direction="down"  triggerOnce="true" delay={800}>
+            <Fade direction="down" cascade="true" triggerOnce="true" delay={800}>
             <div className="second-row">
               <img src={python} alt="python"/>
               <img src={java} alt="java"/>

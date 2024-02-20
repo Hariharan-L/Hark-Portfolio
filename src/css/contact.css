@@ -1,0 +1,39 @@
+.neon-mist7 {
+  background-image: linear-gradient(
+    to top,
+    #ffffff3c,
+    #ffffff29,
+    #ffffff0f,
+    transparent
+  );
+  margin-top: 200px;
+  width: 100%;
+  height: 300px;
+}
+
+.Contact-title {
+  background: linear-gradient(to bottom, #ffffff32, #ffffff00, #ffffff1a, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.8rem;
+  position: relative;
+  top: 0px;
+  padding-top: 70px;
+  width: 125px;
+  left: 710px;
+  margin-bottom: 30px;
+}
+.Contact-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  width: 20px;
+  border-bottom: 3px solid #d3d3d3;
+  transition: 0.7s;
+}
+.Contact-title:hover::before {
+  left: 0;
+  width: 120px;
+}

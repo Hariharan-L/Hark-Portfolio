@@ -1,25 +1,52 @@
-/* .neon-mist5 {
-  display: inline-block;
-  overflow-y: hidden;
-  position: relative;
-  width: 50px;
-  height: 40px;
-  top: 400px;
-  left: 300px;
-  filter: blur(30px);
+.neon-mist5-1 {
+  position: absolute;
+  background-color: #ff0000;
+  filter: blur(200px);
+  z-index: -3;
+  top: -23%;
+  left: -40%;
   border-radius: 50%;
-  background: #ff0022;
-} */
+  width: 250px;
+  height: 250px;
+}
+.neon-mist5-2 {
+  position: absolute;
+  background-color: #ff0000;
+  filter: blur(200px);
+  z-index: -3;
+  top: -25%;
+  right: -60%;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+.neon-mist6 {
+  position: absolute;
+  background-image: linear-gradient(
+    to top,
+    #0a031a 90%,
+    #0a031a8f,
+    transparent
+  );
+  filter: blur(1px);
+  z-index: -2;
+  top: -53%;
+  left: -32%;
+  width: 1000%;
+  height: 350px;
+}
 .Project-title {
-  background: linear-gradient(to top, #ffa4a4, #bc0000);
+  background: linear-gradient(to bottom, #ff000095 70%, #ffffffa0);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   font-size: 1.8rem;
   position: relative;
+  top: -100px;
+  padding-top: 70px;
   width: 125px;
-  left: 720px;
-  margin-bottom: 100px;
+  left: 710px;
+  margin-bottom: 30px;
 }
 .Project-title::before {
   content: "";
@@ -33,4 +60,108 @@
 .Project-title:hover::before {
   left: 0;
   width: 115px;
+}
+.grid-projects {
+  position: relative;
+  display: grid;
+  width: 800px;
+  left: 250px;
+  grid-gap: 20px;
+  grid-template-columns: 300px 400px 400px;
+  grid-template-rows: 400px 300px 300px;
+  grid-template-areas:
+    "grid-box1 grid-box2 grid-box2"
+    "grid-box3 grid-box3 grid-box5"
+    "grid-box4 grid-box4 grid-box5";
+  margin-bottom: 100px;
+}
+img {
+  width: 100%;
+  padding: none;
+  border-radius: 9px;
+  height: 100%;
+  overflow-y: hidden;
+}
+.grid-projects .boxes {
+  position: relative;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.grid-projects .boxes:hover {
+  border: 2px solid #ff1e43;
+  scale: 1.04;
+}
+.grid-projects .grid-box1 {
+  object-fit: cover;
+  grid-area: grid-box1;
+}
+.grid-projects .grid-box2 {
+  grid-area: grid-box2;
+}
+.grid-projects .grid-box3 {
+  grid-area: grid-box3;
+}
+.grid-projects .grid-box4 {
+  grid-area: grid-box4;
+}
+.grid-projects .grid-box5 {
+  grid-area: grid-box5;
+}
+.grid-box2 {
+  background-color: black;
+}
+.boxes a::before {
+  content: "";
+  color: aliceblue;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(254, 254, 254, 0) 40%,
+    #ff1e43 100%
+  );
+  border-radius: 9px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.boxes:hover a::before {
+  opacity: 1;
+}
+a {
+  text-decoration: none;
+}
+.text2-1 {
+  top: -150px;
+  left: 35%;
+  width: max-content;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ffffff;
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+.text2-2 {
+  top: -150px;
+  left: 20%;
+  width: max-content;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+.boxes:hover .text2-1 {
+  opacity: 1;
+}
+.boxes:hover .text2-2 {
+  opacity: 1;
 }

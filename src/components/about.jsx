@@ -16,7 +16,7 @@ const About = () => {
   return (
     <div id="about" className="container-about-1">
       <div className="image" ref={imgRef}>
-        <Fade direction="down" triggerOnce="true" when={imgInView} cascade duration={1000} delay={600}>
+        <Fade direction="down" triggerOnce="true" when={imgInView} duration={1000} delay={600}>
           <img src={hp} alt="hp" />
         </Fade>
       </div>

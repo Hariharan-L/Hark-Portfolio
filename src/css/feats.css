@@ -1,5 +1,4 @@
 .neon-mist4 {
-  display: inline-block;
   overflow-x: hidden;
   position: relative;
   width: 300px;
@@ -24,8 +23,10 @@
   margin-bottom: 100px;
 }
 .Feats-page {
+  z-index: 1;
   position: relative;
   top: -30px;
+  margin-bottom: 150px;
 }
 .Feats-title::before {
   content: "";
