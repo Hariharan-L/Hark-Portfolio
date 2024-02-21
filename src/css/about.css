@@ -4,6 +4,33 @@
   padding-top: 150px;
   top: -100px;
 }
+.image {
+  display: flex;
+}
+.image .about-heading {
+  position: relative;
+  top: 40px;
+  left: 250px;
+  font-weight: 100;
+  background: linear-gradient(to bottom, #00e1ff00 10%, #97f3ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 2.1rem;
+}
+.about-heading::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  top: 46px;
+  left: 60px;
+  border-bottom: 3px solid #00e1ff;
+  transition: 1s;
+}
+.about-heading:hover::before {
+  width: 165px;
+  left: 0;
+}
 .image img {
   position: relative;
   width: 250px;
@@ -17,7 +44,7 @@
 .details {
   position: relative;
   left: 160px;
-  top: -120px;
+  top: -108px;
   margin-right: 450px;
   font-size: 1.2rem;
   color: #d9d9d9;

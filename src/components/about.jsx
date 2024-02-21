@@ -19,6 +19,9 @@ const About = () => {
         <Fade direction="down" triggerOnce="true" when={imgInView} duration={1000} delay={600}>
           <img src={hp} alt="hp" />
         </Fade>
+        <Fade direction="down" triggerOnce="true" when={imgInView} duration={1000} delay={600}>
+          <h3 className="about-heading">About me</h3>
+          </Fade>
       </div>
       <Fade direction="down" triggerOnce="true" when={paraInView} duration={1000} delay={900}>
         <div><p className="details" ref={paraRef}>
