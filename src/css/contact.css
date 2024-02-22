@@ -1,4 +1,5 @@
 .neon-mist7 {
+  position: absolute;
   background-image: linear-gradient(
     to top,
     #ffffff3c,
@@ -10,7 +11,6 @@
   width: 100%;
   height: 300px;
 }
-
 .Contact-title {
   background: linear-gradient(to bottom, #ffffff32, #ffffff00, #ffffff1a, #fff);
   -webkit-background-clip: text;

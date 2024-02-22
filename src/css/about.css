@@ -21,9 +21,9 @@
 .about-heading::before {
   content: "";
   position: absolute;
-  width: 50px;
+  width: 40px;
   top: 46px;
-  left: 60px;
+  left: 65px;
   border-bottom: 3px solid #00e1ff;
   transition: 1s;
 }

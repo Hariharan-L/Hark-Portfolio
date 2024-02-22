@@ -2,6 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import project2 from"../assets/Project2.png"
 import project3 from "../assets/web-app.webp";
+import project5 from "../assets/Foodwaste.jpg";
 import "../css/project.css";
 const Project = ()=>{
   return(
@@ -9,7 +10,7 @@ const Project = ()=>{
       <Fade duration={2000} triggerOnce="true">
         <div id="project" className="Project-title">Project's</div>
       </Fade>
-      <Fade triggerOnce="true">
+      <Fade delay={500} duration={2000} triggerOnce="true">
       <div className="grid-projects">
         <div className="neon-mist5-1"></div>
         <div className="neon-mist5-2"></div>
@@ -27,12 +28,19 @@ const Project = ()=>{
           <a href="https://hark.web.app" target="blank">
             <img src={project3} alt=""/>
             <h3 className="text2-1">Chatting Web App</h3>
-            <h3 className="text2-2">A Web App for chatting build using REACT.</h3>
+            <h3 className="text3-2">A Web App for chatting build using REACT.</h3>
           </a>
         </div>
         <div className="boxes grid-box4">
         </div>
         <div className="boxes grid-box5">
+          <a href="https://hark.web.app" target="blank">
+            <img src={project5} alt=""/>
+          </a>
+            <h3 className="text5-1">Solid Waste Remover</h3>
+            <h3 className="text5-2">A Handy device that is used to suck wastes in dry/wet surface ie.food, dust, chewing gum.... 
+            It is made for the reason that sanitory workers use to remove foods in the sink using this device instead of using hands.
+            In restroom's chewing gum's are stick with the metal plate that needs can be easily removed using this device.</h3>
         </div>
       </div>
       </Fade>

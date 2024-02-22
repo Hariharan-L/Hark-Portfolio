@@ -1,30 +1,30 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
-import { useInView } from 'react-intersection-observer';
+// import { useInView } from 'react-intersection-observer';
 import "../css/about.css";
 import hp from "../assets/IMG-20220710-WA0006.jpg";
 
 const About = () => {
-  const [imgRef, imgInView] = useInView({
-    threshold: 1,
-  });
+  // const [imgRef, imgInView] = useInView({
+  //   threshold: 1,
+  // });
 
-  const [paraRef, paraInView] = useInView({
-    threshold: 0.4,
-  });
+  // const [paraRef, paraInView] = useInView({
+  //   threshold: 0.4,
+  // });
 
   return (
     <div id="about" className="container-about-1">
-      <div className="image" ref={imgRef}>
-        <Fade direction="down" triggerOnce="true" when={imgInView} duration={1000} delay={600}>
+      <div className="image">
+        <Fade direction="down" triggerOnce="true" duration={1000} delay={400}>
           <img src={hp} alt="hp" />
         </Fade>
-        <Fade direction="down" triggerOnce="true" when={imgInView} duration={1000} delay={600}>
+        <Fade direction="down" triggerOnce="true" duration={1000} delay={1000}>
           <h3 className="about-heading">About me</h3>
           </Fade>
       </div>
-      <Fade direction="down" triggerOnce="true" when={paraInView} duration={1000} delay={900}>
-        <div><p className="details" ref={paraRef}>
+      <Fade direction="down" triggerOnce="true"  duration={1000} delay={1000}>
+        <div><p className="details" >
           Passionate programmer with a flair for creative website designs, I see coding as an art form.
           Daily mobile game sessions fuel my creativity, bringing a unique perspective to my work.
           Thriving in teamwork, I contribute ideas while being supportive and entertaining.

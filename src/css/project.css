@@ -66,7 +66,7 @@
   display: grid;
   width: 800px;
   left: 250px;
-  grid-gap: 20px;
+  grid-gap: 17px;
   grid-template-columns: 300px 400px 400px;
   grid-template-rows: 400px 300px 300px;
   grid-template-areas:
@@ -85,6 +85,7 @@ img {
 .grid-projects .boxes {
   position: relative;
   border-radius: 10px;
+  border: 2px solid transparent;
   transition: 0.5s;
 }
 .grid-projects .boxes:hover {
@@ -159,9 +160,55 @@ a {
   transition: opacity 0.3s ease;
   z-index: 2;
 }
+.text3-2 {
+  top: -150px;
+  left: 25%;
+  width: max-content;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
 .boxes:hover .text2-1 {
   opacity: 1;
 }
 .boxes:hover .text2-2 {
+  opacity: 1;
+}
+.boxes:hover .text3-2 {
+  opacity: 1;
+}
+.text5-1 {
+  top: -350px;
+  left: 70px;
+  width: max-content;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ffffff;
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+.text5-2 {
+  top: -350px;
+  left: 3%;
+  padding: 0 15px 0 10px;
+  width: fit-content;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+.boxes:hover .text5-1 {
+  opacity: 1;
+}
+.boxes:hover .text5-2 {
   opacity: 1;
 }

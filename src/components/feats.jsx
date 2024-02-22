@@ -11,7 +11,7 @@ const Feats=()=>{
           <Fade direction="down" triggerOnce="true" duration={1000}>
             <div className="Feats-title">Feats</div>
           </Fade>
-          <Fade direction="down" triggerOnce="true" delay={500} duration={2000}>
+          <Fade direction="down" triggerOnce="true" delay={100} duration={1000}>
           <div className="Feats-Container">
             <div className="coding-container"><img src={coding} alt="coding"/>
               <div className="text-area-coding">
