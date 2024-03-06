@@ -12,14 +12,13 @@
   height: 300px;
 }
 .Contact-title {
-  background: linear-gradient(to bottom, #ffffff32, #ffffff00, #ffffff1a, #fff);
+  background: linear-gradient(to bottom, #ffffff18 25%, #fff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   font-size: 1.8rem;
   position: relative;
-  top: 0px;
-  padding-top: 70px;
+  top: 70px;
   width: 125px;
   left: 710px;
   margin-bottom: 30px;
@@ -36,4 +35,46 @@
 .Contact-title:hover::before {
   left: 0;
   width: 120px;
+}
+.information {
+  color: #ffffffc8;
+  font-size: 1.7em;
+  font-weight: 100;
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.Resume {
+  position: relative;
+  left: 200px;
+  top: 200px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 10px;
+  background: linear-gradient(to bottom, transparent 30%, #ffffff42);
+  border-radius: 10px;
+  transition: 1s;
+}
+.Resume:hover {
+  color: #000;
+  background-color: #ffffff9d;
+}
+.e-mail {
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.3em;
+  left: 65%;
+  top: 160px;
+  padding: 10px;
+  width: fit-content;
+  background: linear-gradient(to bottom, transparent 30%, #ffffff42);
+  border-radius: 10px;
+  transition: 1s;
+  position: relative;
+}
+.e-mail:hover {
+  color: #000;
+  background-color: #ffffff9d;
 }
