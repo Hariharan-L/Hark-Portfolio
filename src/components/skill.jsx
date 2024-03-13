@@ -34,8 +34,8 @@ const Skills = () =>{
             </Fade>
             <Fade direction="down" cascade="true" triggerOnce="true" delay={800}>
             <div className="second-row">
-              <img src={python} alt="python"/>
-              <img src={java} alt="java"/>
+              <img className="python" src={python} alt="python"/>
+              <img className="java" src={java} alt="java"/>
               <img src={c} alt="c"/>
               <img className="cpp" src={cpp} alt="cpp"/>
               <img className="git" src={git} alt="git"/>
