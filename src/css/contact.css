@@ -105,17 +105,17 @@
   }
   .information {
     font-size: 1rem;
-    padding-right: 40px;
+    padding-right: 30px;
     left: 10px;
     text-align: center;
   }
   .Resume {
-    left: 31%;
-    font-size: 1rem;
+    left: 30%;
+    font-size: 1.05rem;
   }
   .e-mail {
-    left: 22%;
+    left: 20%;
     top: 230px;
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 }
