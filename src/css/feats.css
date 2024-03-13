@@ -179,12 +179,12 @@
   }
   .text-area-coding ul {
     position: relative;
-    left: -8px;
+    left: -10px;
     padding-right: 35px;
   }
   .text-area-presentation ul {
     position: relative;
-    left: -8px;
+    left: -10px;
     padding-right: 35px;
   }
 }
