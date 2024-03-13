@@ -23,6 +23,7 @@ const Skills = () =>{
             <div className="title">Programing Skills</div>
             </Fade>
             <Fade direction="down" triggerOnce="true" delay={200}>
+              <div>
             <div className="first-row">
               <img src={html} alt="html"/>
               <img src={css} alt="css"/>
@@ -31,8 +32,6 @@ const Skills = () =>{
               <img className="mongo-db" src={mongodb} alt="mongodb"/>
               <img className="sql"src={mysql} alt="mysql"/>
             </div>
-            {/* </Fade>
-            <Fade direction="down" cascade="true" triggerOnce="true" > */}
             <div className="second-row">
               <img className="python" src={python} alt="python"/>
               <img className="java" src={java} alt="java"/>
@@ -40,7 +39,9 @@ const Skills = () =>{
               <img className="cpp" src={cpp} alt="cpp"/>
               <img className="git" src={git} alt="git"/>
             </div>
+            </div>
             </Fade>
+
         </div>
         </div>
     </div>
