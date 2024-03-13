@@ -186,10 +186,22 @@
     flex-direction: column;
   }
   .Education-container-1 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+  .Education-container-1::before {
+    top: 30px;
+  }
+  .Education-container-2::before {
+    top: 30px;
+  }
+  .Education-container-1 p {
+    font-size: 1rem;
+  }
+  .Education-container-2 p {
+    font-size: 1rem;
   }
   .Education-container-2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .Education-container-2:before {
     left: 0;
