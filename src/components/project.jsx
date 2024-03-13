@@ -27,7 +27,7 @@ const Project = ()=>{
         <div className="boxes grid-box3">
           <a href="https://hark.web.app" target="blank">
             <img src={project3} alt=""/>
-            <h3 className="text2-1">Chatting Web App</h3>
+            <h3 className="text3-1">Chatting Web App</h3>
             <h3 className="text3-2">A Web App for chatting build using REACT.</h3>
           </a>
         </div>
