@@ -84,7 +84,7 @@
   .Skill img {
     width: 50px;
     cursor: pointer;
-    margin: 0 35px 30px 0;
+    margin: 0 40px 30px 0;
     transition: 1s;
   }
   .first-row {
@@ -102,7 +102,7 @@
     display: flex;
     position: relative;
     top: -80px;
-    left: 30px;
+    left: 50px;
     flex-wrap: wrap;
     justify-content: center;
   }
