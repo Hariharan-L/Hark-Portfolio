@@ -174,10 +174,14 @@
     width: 350px;
     margin-bottom: 50px;
   }
-  .text-area-coding {
-    top: 120px;
-    left: 200px;
-    right: 20px;
-    text-wrap: wrap;
+  .text-area-coding ul {
+    position: relative;
+    left: -5px;
+    padding-right: 35px;
+  }
+  .text-area-presentation ul {
+    position: relative;
+    left: -5px;
+    padding-right: 35px;
   }
 }
