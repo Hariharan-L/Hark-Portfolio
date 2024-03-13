@@ -94,11 +94,11 @@
   }
   .mongo-db {
     position: relative;
-    left: 15px;
+    left: 45px;
   }
   .sql {
     position: relative;
-    left: 20px;
+    left: 45px;
     width: 90px;
   }
   /* .second-row {
@@ -112,16 +112,23 @@
   } */
   .python {
     position: relative;
-    top: -50px;
-    left: 150px;
+    top: -80px;
+    left: 200px;
+  }
+  .java {
+    position: relative;
+    left: -20px;
+  }
+  .c {
+    position: relative;
+    left: -20px;
   }
   .cpp {
     position: relative;
-    left: -60px;
+    top: 80px;
+    left: -155px;
   }
   .git {
-    position: relative;
-    left: -90px;
-    top: -40px;
+    display: none;
   }
 }
