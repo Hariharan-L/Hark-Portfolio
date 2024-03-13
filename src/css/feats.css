@@ -156,6 +156,9 @@
     filter: blur(200px);
     left: 0;
   }
+  .Feats-page {
+    left: 10px;
+  }
   .Feats-title {
     left: 150px;
   }
