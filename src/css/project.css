@@ -255,8 +255,14 @@ a {
   .grid-projects {
     left: 10px;
     grid-gap: 10px;
-    grid-template-columns: 90px 130px 130px;
-    grid-template-rows: 130px 100px 100px;
+    grid-template-columns: 180px 180px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-template-areas:
+      "grid-box2 grid-box2"
+      "grid-box1 grid-box5"
+      "grid-box1 grid-box5"
+      "grid-box4 grid-box4"
+      "grid-box3 grid-box3";
   }
   .grid-projects .boxes:hover {
     border: 1px solid #ff1e43;
