@@ -81,6 +81,9 @@
     width: 40px;
     left: 175px;
   }
+  .Skill {
+    left: 20px;
+  }
   .Skill img {
     width: 50px;
     cursor: pointer;
@@ -88,9 +91,14 @@
     transition: 1s;
   }
   .first-row {
-    display: flex;
+    position: relative;
+    left: 20px;
     flex-wrap: wrap;
     justify-content: flex-start;
+  }
+  .second-row {
+    position: relative;
+    left: 20px;
   }
   .mongo-db {
     position: relative;
@@ -101,15 +109,6 @@
     left: 45px;
     width: 90px;
   }
-  /* .second-row {
-    margin: 0 100px 30px 100px;
-    display: flex;
-    position: relative;
-    top: -80px;
-    left: 10px;
-     flex-wrap: wrap;
-    justify-content: center; 
-  } */
   .python {
     position: relative;
     top: -80px;
