@@ -157,7 +157,7 @@
     left: 0;
   }
   .Feats-page {
-    left: 10px;
+    left: 20px;
   }
   .Feats-title {
     left: 150px;
@@ -184,7 +184,7 @@
   }
   .text-area-presentation ul {
     position: relative;
-    left: -5px;
+    left: -8px;
     padding-right: 35px;
   }
 }

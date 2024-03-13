@@ -212,3 +212,11 @@ a {
 .boxes:hover .text5-2 {
   opacity: 1;
 }
+@media (max-width: 1024px) {
+}
+/*md*/
+@media (max-width: 768px) {
+}
+/*sm*/
+@media (max-width: 475px) {
+}
