@@ -30,11 +30,11 @@ const About = () => {
         <div className="Studies">
         <Fade direction="down" triggerOnce="true" duration={1000} delay={400}>
           <div className="Education-container-1">
-            B.E Electronics and Communication.
+            <div className="Education-title1">B.E Electronics and Communication.</div>
             <p>2021-2025<br/>Currently studiying 6th semester at <br/>Kongu Engineering College, Erode.<br/>CGPA: 8.19.</p>
           </div>
           <div className="Education-container-2">
-            Class 10th & 12th.
+          <div className="Education-title2">Class 10th & 12th.</div>
             <p>2019-2021<br/>
               Malco Vidiyalaya Hr.Sec School, Salem.<br/>
               10th std: 88.7%.<br/>
