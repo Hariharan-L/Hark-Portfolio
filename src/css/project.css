@@ -227,14 +227,14 @@ a {
   .neon-mist5-1 {
     width: 100px;
     left: -80px;
-    top: -50%;
-    filter: blur(120px);
+    top: -45%;
+    filter: blur(100px);
   }
   .neon-mist5-2 {
-    top: -50%;
+    top: -45%;
     right: 40%;
     width: 100px;
-    filter: blur(120px);
+    filter: blur(100px);
   }
   .neon-mist6 {
     top: -70%;
