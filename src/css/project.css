@@ -227,17 +227,17 @@ a {
   .neon-mist5-1 {
     width: 100px;
     left: -80px;
-    top: -100%;
+    top: -50%;
     filter: blur(120px);
   }
   .neon-mist5-2 {
-    top: -100%;
+    top: -50%;
     right: 40%;
     width: 100px;
     filter: blur(120px);
   }
   .neon-mist6 {
-    top: -153%;
+    top: -70%;
   }
   .Project-title {
     /* left: 730px; */
