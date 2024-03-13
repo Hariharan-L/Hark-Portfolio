@@ -93,5 +93,29 @@
 }
 /*sm*/
 @media (max-width: 475px) {
-
+  .Contact-title {
+    font-size: 1.6rem;
+    left: 145px;
+  }
+  .Contact-title::before {
+    left: 40px;
+  }
+  .Contact-title:hover::before {
+    width: 105px;
+  }
+  .information {
+    font-size: 1rem;
+    padding-right: 40px;
+    left: 6px;
+    text-align: center;
+  }
+  .Resume {
+    left: 29%;
+    font-size: 0.9rem;
+  }
+  .e-mail {
+    left: 21%;
+    top: 230px;
+    font-size: 0.9rem;
+  }
 }
