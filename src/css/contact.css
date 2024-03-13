@@ -7,7 +7,7 @@
   position: relative;
   top: 70px;
   width: 125px;
-  left: 740px;
+  left: 710px;
   z-index: 5;
 }
 .Contact-title::before {
@@ -81,7 +81,6 @@
     #ffffff0f,
     transparent
   );
-  /* right: -30px; */
   bottom: -680%;
   width: 100%;
   height: 390px;
