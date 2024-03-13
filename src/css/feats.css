@@ -144,3 +144,12 @@
 .presentation-container:hover .text-area-presentation {
   opacity: 1;
 }
+@media (max-width: 1024px) {
+}
+/*md*/
+@media (max-width: 768px) {
+}
+/*sm*/
+@media (max-width: 475px) {
+
+}

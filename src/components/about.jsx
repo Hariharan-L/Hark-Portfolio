@@ -14,7 +14,7 @@ const About = () => {
           <h3 className="about-heading">About me</h3>
           </Fade>
       </div>
-      <Fade direction="down" triggerOnce="true"  duration={1000} delay={1000}>
+      <Fade direction="down" triggerOnce="true"  duration={1000} delay={500}>
         <div><p className="details" >
           Passionate programmer with a flair for creative website designs, I see coding as an art form.
           Daily mobile game sessions fuel my creativity, bringing a unique perspective to my work.

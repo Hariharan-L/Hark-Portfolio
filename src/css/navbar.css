@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 .hamburger {
   display: none;
   padding: 5px 15px 0px 0px;
@@ -154,6 +154,8 @@ header ul li a:hover {
   }
   .hamburger {
     display: block;
+    position: relative;
+    right: 10px;
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;

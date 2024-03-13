@@ -163,6 +163,21 @@
     margin-right: 40px;
     border-radius: 0 0px 0 0;
   }
+  .image .about-heading {
+    background: #00e1ffc8;
+    left: 30px;
+    top: 0;
+    font-size: 1.5rem;
+    writing-mode: vertical-lr; /* Sets vertical writing mode, top to bottom */
+    text-orientation: upright; /* Ensures upright text */
+    white-space: nowrap;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .image .about-heading::before {
+    display: none;
+  }
 
   .Education {
     margin-right: 0;

@@ -60,3 +60,58 @@
   display: flex;
   justify-content: center;
 }
+@media (max-width: 1024px) {
+}
+/*md*/
+@media (max-width: 768px) {
+}
+/*sm*/
+@media (max-width: 475px) {
+  .neon-mist3 {
+    top: 400px;
+    left: 20%;
+  }
+  .title {
+    margin: 0;
+    display: flex;
+    left: -20px;
+    justify-content: center;
+  }
+  .title::before {
+    width: 40px;
+    left: 195px;
+  }
+  .Skill img {
+    width: 50px;
+    cursor: pointer;
+    margin: 0 35px 30px 0;
+    transition: 1s;
+  }
+  .first-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .sql {
+    position: relative;
+    left: 20px;
+    width: 90px;
+  }
+  .second-row {
+    margin: 0 45px 30px 45px;
+    display: flex;
+    position: relative;
+    top: -80px;
+    left: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cpp {
+    position: relative;
+    left: -40px;
+  }
+  .git {
+    position: relative;
+    left: -40px;
+  }
+}

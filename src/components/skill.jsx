@@ -29,7 +29,7 @@ const Skills = () =>{
               <img src={js} alt="js"/>
               <img src={react} alt="react"/>
               <img className="mongo-db" src={mongodb} alt="mongodb"/>
-              <img src={mysql} alt="mysql"/>
+              <img className="sql"src={mysql} alt="mysql"/>
             </div>
             </Fade>
             <Fade direction="down" cascade="true" triggerOnce="true" delay={800}>
@@ -37,8 +37,8 @@ const Skills = () =>{
               <img src={python} alt="python"/>
               <img src={java} alt="java"/>
               <img src={c} alt="c"/>
-              <img src={cpp} alt="cpp"/>
-              <img src={git} alt="git"/>
+              <img className="cpp" src={cpp} alt="cpp"/>
+              <img className="git" src={git} alt="git"/>
             </div>
             </Fade>
         </div>
