@@ -227,11 +227,11 @@ a {
   .neon-mist5-1 {
     width: 100px;
     left: -80px;
-    top: -75%;
+    top: -100%;
     filter: blur(120px);
   }
   .neon-mist5-2 {
-    top: -75%;
+    top: -100%;
     right: 40%;
     width: 100px;
     filter: blur(120px);
