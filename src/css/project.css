@@ -242,7 +242,7 @@ a {
   .Project-title {
     /* left: 730px; */
     font-size: 1.5rem;
-    left: 160px;
+    left: 150px;
   }
   .Project-title::before {
     left: 40px;
@@ -252,7 +252,7 @@ a {
   .grid-projects {
     left: 10px;
     grid-gap: 10px;
-    grid-template-columns: 100px 130px 130px;
+    grid-template-columns: 90px 130px 130px;
     grid-template-rows: 130px 100px 100px;
   }
   .grid-projects .boxes:hover {
