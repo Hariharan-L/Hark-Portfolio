@@ -228,16 +228,16 @@ a {
     width: 100px;
     left: -80px;
     top: -45%;
-    filter: blur(100px);
+    filter: blur(80px);
   }
   .neon-mist5-2 {
     top: -45%;
     right: 40%;
     width: 100px;
-    filter: blur(100px);
+    filter: blur(80px);
   }
   .neon-mist6 {
-    top: -70%;
+    top: -60%;
   }
   .Project-title {
     /* left: 730px; */
