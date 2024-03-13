@@ -267,39 +267,43 @@ a {
   .grid-projects .boxes:hover {
     border: 1px solid #ff1e43;
   }
-  /* .grid-box2 a {
-    position: relative;
-    padding-right: 30px;
-  } */
+  .grid-box5 a::before {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 31, 31, 0.251) 10%,
+      #ff1e43 100%
+    );
+  }
   .text2-1 {
     top: -90px;
-    left: 90px;
-    font-size: 0.7rem;
+    left: 110px;
+    font-size: 0.9rem;
   }
   .text2-2 {
     top: -90px;
-    left: 3%;
-    font-size: 0.6rem;
+    left: 5%;
+    font-size: 0.7rem;
   }
   .text3-2 {
-    color: #000;
+    color: #fff;
     top: -90px;
-    left: 3%;
-    font-size: 0.7rem;
+    left: 10%;
+    font-size: 0.9rem;
   }
   .text3-1 {
     top: -90px;
     left: 30%;
-    color: #000;
-    font-size: 0.7rem;
+    color: #fff;
+    font-size: 1rem;
   }
   .text5-1 {
-    top: -220px;
-    left: 20px;
-    font-size: 0.6rem;
+    top: -280px;
+    left: 15px;
+    font-size: 0.9rem;
+    color: #ffffff;
   }
   .text5-2 {
-    top: -220px;
-    font-size: 0.5rem;
+    top: -280px;
+    font-size: 0.7rem;
   }
 }
