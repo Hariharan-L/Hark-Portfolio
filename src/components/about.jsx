@@ -1,18 +1,9 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
-// import { useInView } from 'react-intersection-observer';
 import "../css/about.css";
 import hp from "../assets/IMG-20220710-WA0006.jpg";
 
 const About = () => {
-  // const [imgRef, imgInView] = useInView({
-  //   threshold: 1,
-  // });
-
-  // const [paraRef, paraInView] = useInView({
-  //   threshold: 0.4,
-  // });
-
   return (
     <div id="about" className="container-about-1">
       <div className="image">

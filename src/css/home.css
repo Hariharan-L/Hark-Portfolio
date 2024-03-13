@@ -201,4 +201,13 @@
   .name {
     font-size: 150%;
   }
+  .fon-left {
+    display: none;
+  }
+  .line-bottom{
+    display: none;
+  }
+  .line-top{
+    display: none;
+  }
 }

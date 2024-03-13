@@ -139,3 +139,28 @@
   color: #acacac;
   font-size: 1.2rem;
 }
+
+@media (max-width: 1024px) {
+}
+/*md*/
+@media (max-width: 768px) {
+}
+/*sm*/
+@media (max-width: 475px) {
+  .container-about-1 {
+    padding-top: 0px;
+    /* margin-left: 50px; */
+  }
+  .image img {
+    width: 240px;
+    --mask: radial-gradient(0px at 100% 100%, #ffffff00 98%, #000);
+  }
+  .details {
+    top: 0;
+    font-size: 1rem;
+    left: 0;
+    padding: 30px;
+    margin-right: 60px;
+    border-radius: 0 100px 0 0;
+  }
+}
