@@ -1,16 +1,3 @@
-.neon-mist7 {
-  position: absolute;
-  background-image: linear-gradient(
-    to top,
-    #ffffff3c,
-    #ffffff29,
-    #ffffff0f,
-    transparent
-  );
-  margin-top: 85px;
-  width: 100%;
-  height: 300px;
-}
 .Contact-title {
   background: linear-gradient(to bottom, #ffffff18 25%, #fff);
   -webkit-background-clip: text;
@@ -20,15 +7,15 @@
   position: relative;
   top: 70px;
   width: 125px;
-  left: 710px;
-  margin-bottom: 30px;
+  left: 740px;
+  z-index: 5;
 }
 .Contact-title::before {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 54px;
-  width: 20px;
+  left: 50px;
+  width: 30px;
   border-bottom: 3px solid #d3d3d3;
   transition: 0.7s;
 }
@@ -44,11 +31,12 @@
   top: 100px;
   display: flex;
   justify-content: center;
+  z-index: -6;
 }
 .Resume {
   position: relative;
-  left: 200px;
-  top: 200px;
+  left: 230px;
+  bottom: -200px;
   text-decoration: none;
   color: #fff;
   font-size: 1.3em;
@@ -56,25 +44,46 @@
   background: linear-gradient(to bottom, transparent 30%, #ffffff42);
   border-radius: 10px;
   transition: 1s;
+  z-index: 1;
 }
 .Resume:hover {
   color: #000;
   background-color: #ffffff9d;
+  z-index: 2;
 }
 .e-mail {
   cursor: pointer;
   color: #fff;
   font-size: 1.3em;
-  left: 65%;
+  left: 67%;
   top: 160px;
+  bottom: 0;
   padding: 10px;
   width: fit-content;
   background: linear-gradient(to bottom, transparent 30%, #ffffff42);
   border-radius: 10px;
   transition: 1s;
   position: relative;
+  z-index: 1000;
 }
 .e-mail:hover {
   color: #000;
   background-color: #ffffff9d;
+  z-index: 1;
+}
+
+.neon-mist7 {
+  position: relative;
+  background-image: linear-gradient(
+    to top,
+    #ffffff3c,
+    #ffffff29,
+    #ffffff0f,
+    transparent
+  );
+  /* right: -30px; */
+  bottom: -680%;
+  width: 100%;
+  height: 390px;
+  z-index: -1;
 }

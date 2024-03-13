@@ -18,13 +18,14 @@
   font-size: 1.8rem;
   position: relative;
   top: -100px;
-  left: 730px;
+  left: 740px;
   width: 90px;
   margin-bottom: 100px;
 }
 .Feats-page {
   z-index: 1;
   position: relative;
+  left: 40px;
   top: -30px;
   margin-bottom: 150px;
 }

@@ -3,7 +3,12 @@
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-  display: none;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, transparent, #00e1ff);
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
 }
 .App {
   width: 100%;
