@@ -256,7 +256,7 @@ a {
     left: 10px;
     grid-gap: 10px;
     grid-template-columns: 180px 180px;
-    grid-template-rows: 200px 150px 150px 150px 150px;
+    grid-template-rows: 200px 150px 150px 200px 200px;
     grid-template-areas:
       "grid-box2 grid-box2"
       "grid-box1 grid-box5"
