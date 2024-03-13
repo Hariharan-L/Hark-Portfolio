@@ -106,15 +106,15 @@
   .information {
     font-size: 1rem;
     padding-right: 40px;
-    left: 6px;
+    left: 10px;
     text-align: center;
   }
   .Resume {
-    left: 29%;
+    left: 31%;
     font-size: 0.9rem;
   }
   .e-mail {
-    left: 21%;
+    left: 23%;
     top: 230px;
     font-size: 0.9rem;
   }
