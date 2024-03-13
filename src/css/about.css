@@ -163,4 +163,20 @@
     margin-right: 40px;
     border-radius: 0 0px 0 0;
   }
+
+  .Education {
+    margin-right: 0;
+  }
+  .Studies {
+    flex-direction: column;
+  }
+  .Education-container-1 {
+    font-size: 1.3rem;
+  }
+  .Education-container-2 {
+    font-size: 1.3rem;
+  }
+  .Education-container-2:before {
+    left: 0;
+  }
 }

@@ -193,21 +193,21 @@
     top: 17px;
   }
   .fon {
-    top: 130px;
-    font-size: 30px;
+    top: 170px;
+    font-size: 35px;
   }
   .home span,
   .fname,
   .name {
-    font-size: 150%;
+    font-size: 180%;
   }
   .fon-left {
     display: none;
   }
-  .line-bottom{
+  .line-bottom {
     display: none;
   }
-  .line-top{
+  .line-top {
     display: none;
   }
 }
