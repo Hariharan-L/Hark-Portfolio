@@ -92,6 +92,10 @@
     flex-wrap: wrap;
     justify-content: flex-start;
   }
+  .mongo-db{
+    position: relative;
+    left: 15px;
+  }
   .sql {
     position: relative;
     left: 20px;
@@ -102,16 +106,16 @@
     display: flex;
     position: relative;
     top: -80px;
-    left: 50px;
+    left: 80px;
     flex-wrap: wrap;
     justify-content: center;
   }
   .cpp {
     position: relative;
-    left: -40px;
+    left: -50px;
   }
   .git {
     position: relative;
-    left: -40px;
+    left: -50px;
   }
 }
