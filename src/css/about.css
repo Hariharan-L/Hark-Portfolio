@@ -149,7 +149,7 @@
 @media (max-width: 475px) {
   .container-about-1 {
     padding-top: 0px;
-    /* margin-left: 50px; */
+    margin-left: 30px;
   }
   .image img {
     width: 240px;
@@ -160,7 +160,7 @@
     font-size: 1rem;
     left: 0;
     padding: 30px;
-    margin-right: 60px;
-    border-radius: 0 100px 0 0;
+    margin-right: 40px;
+    border-radius: 0 0px 0 0;
   }
 }
