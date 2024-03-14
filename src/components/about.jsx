@@ -6,13 +6,15 @@ import hp from "../assets/IMG-20220710-WA0006.jpg";
 const About = () => {
   return (
     <div id="about" className="container-about-1">
-        <Fade direction="down" triggerOnce="true" duration={1000} delay={1000}>
-          <h3 className="about-heading">About me</h3>
-          </Fade>
+      <div className="about-flex">
+      <Fade direction="down" triggerOnce="true" duration={1000} delay={1000}>
+        <h3 className="about-heading">About me</h3>
+      </Fade>
       <div className="image">
         <Fade direction="down" triggerOnce="true" duration={1000} delay={400}>
           <img src={hp} alt="hp" />
         </Fade>
+      </div>
       </div>
       <Fade direction="down" triggerOnce="true"  duration={1000} delay={500}>
         <div><p className="details" >

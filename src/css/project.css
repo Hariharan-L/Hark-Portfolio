@@ -275,7 +275,7 @@ a {
   }
   .neon-mist5-2 {
     top: -45%;
-    right: 40%;
+    right: -90%;
     width: 100px;
     filter: blur(80px);
   }
@@ -285,10 +285,10 @@ a {
   .Project-title {
     /* left: 730px; */
     font-size: 1.5rem;
-    left: 150px;
+    /* left: 150px; */
   }
   .Project-title::before {
-    left: 40px;
+    /* left: 40px; */
     width: 20px;
   }
   .boxes {

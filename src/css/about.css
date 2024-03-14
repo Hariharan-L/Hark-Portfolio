@@ -5,13 +5,13 @@
   top: -100px;
 }
 .about-heading {
-  /* display: flex;
-  justify-content: center; */
+  /* display: flex; */
+  /* justify-content: center; */
   position: relative;
   font-weight: 100;
   /* top: 30%; */
   bottom: -150px;
-  left: 45%;
+  /* left: 45%; */
   background: linear-gradient(to bottom, #00e1ff00 10%, #97f3ff);
   -webkit-background-clip: text;
   background-clip: text;
@@ -139,7 +139,11 @@
   color: #acacac;
   font-size: 1.2rem;
 }
-
+@media screen and (max-width: 1555px) {
+  .about-flex {
+    display: flex;
+  }
+}
 /*md*/
 @media (max-width: 846px) {
   .container-about-1 {
@@ -189,11 +193,19 @@
     margin-right: 40px;
     border-radius: 0 0px 0 0;
   }
+  .about-flex {
+    display: flex;
+  }
+  .image {
+    position: relative;
+    left: -80px;
+  }
   .about-heading {
     background: #00e1ffc8;
-    position: absolute;
-    /* right: -30px; */
-    top: 20%;
+    /* position: absolute; */
+    left: 250px;
+    top: -10px;
+    /* top: 260px; */
     font-size: 1.5rem;
     writing-mode: vertical-lr; /* Sets vertical writing mode, top to bottom */
     text-orientation: upright; /* Ensures upright text */
