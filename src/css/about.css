@@ -11,7 +11,7 @@
   font-weight: 100;
   /* top: 30%; */
   bottom: -150px;
-  /* left: 45%; */
+  left: 45%;
   background: linear-gradient(to bottom, #00e1ff00 10%, #97f3ff);
   -webkit-background-clip: text;
   background-clip: text;
@@ -140,9 +140,6 @@
   font-size: 1.2rem;
 }
 @media screen and (max-width: 1555px) {
-  .about-flex {
-    display: flex;
-  }
 }
 /*md*/
 @media (max-width: 846px) {
@@ -152,12 +149,18 @@
     padding-top: 0;
     top: -200px;
   }
+  .about-flex {
+    display: flex;
+  }
   .image img {
     width: 210px;
     --mask: radial-gradient(110px at 100% 100%, #ffffff00 98%, #000);
   }
+  .image img {
+    left: -80%;
+  }
   .about-heading {
-    left: 150px;
+    left: 150%;
     top: 0;
   }
   .details {

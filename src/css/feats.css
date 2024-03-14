@@ -3,6 +3,8 @@
   position: relative;
   width: 300px;
   padding: 100px;
+  /* display: flex;
+  justify-content: center; */
   top: -50px;
   left: 500px;
   filter: blur(250px);
@@ -17,8 +19,10 @@
   color: transparent;
   font-size: 1.8rem;
   position: relative;
-  top: -100px;
-  left: 720px;
+  display: flex;
+  justify-content: center;
+  /* top: -100px; */
+  /* left: 720px; */
   width: 90px;
   margin-bottom: 100px;
 }
@@ -147,12 +151,12 @@
 /*md*/
 @media (min-width: 476) and (max-width: 864px) {
   .neon-mist4 {
-    left: 200px;
+    left: 0;
     top: -200px;
     filter: blur(180px);
   }
   .Feats-title {
-    left: 300px;
+    /* left: 0; */
   }
   .Feats-page {
     left: 100px;
