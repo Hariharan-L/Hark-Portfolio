@@ -87,7 +87,7 @@
 @media (max-width: 475px) {
   .neon-mist3 {
     top: 400px;
-    left: 20%;
+    /* left: 20%; */
   }
   .title {
     margin: 0;
@@ -110,13 +110,13 @@
   }
   .first-row {
     position: relative;
-    left: 20px;
+    /* left: 20px; */
     flex-wrap: wrap;
     justify-content: flex-start;
   }
   .second-row {
     position: relative;
-    left: 20px;
+    /* left: 20px; */
   }
   .mongo-db {
     position: relative;
