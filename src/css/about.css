@@ -152,7 +152,7 @@
     width: 210px;
     --mask: radial-gradient(110px at 100% 100%, #ffffff00 98%, #000);
   }
-  .image .about-heading {
+  .about-heading {
     left: 150px;
     top: 0;
   }
@@ -191,8 +191,8 @@
   }
   .about-heading {
     background: #00e1ffc8;
-    /* left: 5px; */
-    /* top: 0; */
+    position: relative;
+    right: -30px;
     font-size: 1.5rem;
     writing-mode: vertical-lr; /* Sets vertical writing mode, top to bottom */
     text-orientation: upright; /* Ensures upright text */
@@ -200,15 +200,14 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    margin-top: 50px;
-    margin-left: 50px;
+    /* bottom: -40px; */
   }
   .about-heading::before {
     display: none;
   }
-  /* .Education {
-    margin-right: 0;
-  } */
+  .Education {
+    left: -10%;
+  }
   .Studies {
     flex-direction: column;
   }

@@ -65,7 +65,7 @@
 @media (max-width: 864px) {
   .neon-mist3 {
     top: 300px;
-    /* left: 38%; */
+    left: 0;
   }
   .Skill {
     position: relative;
