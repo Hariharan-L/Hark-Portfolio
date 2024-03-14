@@ -193,6 +193,7 @@
     background: #00e1ffc8;
     position: relative;
     right: -30px;
+    display: flex;
     font-size: 1.5rem;
     writing-mode: vertical-lr; /* Sets vertical writing mode, top to bottom */
     text-orientation: upright; /* Ensures upright text */
