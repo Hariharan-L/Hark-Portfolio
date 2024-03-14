@@ -27,7 +27,6 @@
 .Feats-page {
   z-index: 1;
   position: relative;
-  /* left: 40px; */
   top: -30px;
   margin-bottom: 150px;
 }
@@ -35,13 +34,11 @@
   content: "";
   position: absolute;
   bottom: 0;
-  /* left: 30px; */
   width: 20px;
   border-bottom: 3px solid #ffc517;
   transition: 0.7s;
 }
 .Feats-title:hover::before {
-  /* left: 0; */
   width: 75px;
 }
 .Feats-Container {
@@ -216,27 +213,36 @@
   .Feats-Container {
     position: relative;
     top: -150px;
-    left: 5%;
+    left: 5px;
     display: flex;
     flex-direction: column;
   }
   .presentation-container {
     border-radius: 30px;
-    width: 350px;
+    width: 100%;
+    height: 570px;
+  }
+  .text-area-presentation {
+    top: 55%;
+  }
+  .presentation-container::before {
+    width: 85.5%;
+  }
+  .coding-container::before {
+    width: 86%;
   }
   .coding-container {
     border-radius: 30px;
-    width: 350px;
+    width: 100%;
+    overflow: hidden;
     margin-bottom: 50px;
   }
   .text-area-coding ul {
     position: relative;
-    /* left: -10px; */
-    padding-right: 35px;
+    left: -10px;
   }
   .text-area-presentation ul {
     position: relative;
-    /* left: -10px; */
-    padding-right: 35px;
+    left: -10px;
   }
 }

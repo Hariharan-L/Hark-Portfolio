@@ -36,6 +36,8 @@ const Feats=()=>{
                 <ul>
                   <li>IDEATHON-2K23-KEC: Presented a idea and won 3rd prize.</li>
                   <li>Proof-of-Concept - KEC: Presented prototype and won 3rd prize.</li>
+                  <li>Science-Expo - KEC: Presented prototype and won 3rd prize.</li>
+                  <li>E-Horizon(Ideathon) - KEC: Presented Idea and won 3rd prize.</li>
                 </ul>
               </div>
             </div>
