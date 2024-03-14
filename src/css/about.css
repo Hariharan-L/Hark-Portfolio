@@ -191,8 +191,9 @@
   }
   .about-heading {
     background: #00e1ffc8;
-    right: 10%;
+    left: 5px;
     top: 0;
+    display: inline;
     font-size: 1.5rem;
     writing-mode: vertical-lr; /* Sets vertical writing mode, top to bottom */
     text-orientation: upright; /* Ensures upright text */
