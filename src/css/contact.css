@@ -88,8 +88,6 @@
   height: 390px;
   z-index: -1;
 }
-@media (max-width: 1024px) {
-}
 /*md*/
 @media (min-width: 476px) and (max-width: 800px) {
   .Contact-title {

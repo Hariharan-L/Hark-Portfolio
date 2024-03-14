@@ -216,6 +216,36 @@ a {
 .boxes:hover .text5-2 {
   opacity: 1;
 }
+@media (max-width: 1150px) {
+  .text2-1 {
+    font-size: 1.4rem;
+  }
+  .text2-2 {
+    left: 50px;
+  }
+  .text3-2 {
+    left: 20%;
+  }
+  .text3-1 {
+    font-size: 1.3rem;
+  }
+  .text5-1 {
+    top: -450px;
+    left: 20px;
+    font-size: 1.35rem;
+  }
+  .text5-2 {
+    top: -450px;
+    font-size: 1.1rem;
+  }
+  .grid-box5 a::before {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 31, 31, 0.251) 10%,
+      #ff1e43 100%
+    );
+  }
+}
 /*md*/
 @media (max-width: 864px) {
   .neon-mist5-1 {
@@ -248,13 +278,6 @@ a {
       "grid-box4 grid-box4"
       "grid-box3 grid-box3";
   }
-  .grid-box5 a::before {
-    background-image: linear-gradient(
-      to bottom,
-      rgba(255, 31, 31, 0.164) 10%,
-      #ff1e43 100%
-    );
-  }
   .text5-1 {
     top: -70%;
     left: 15px;
@@ -283,6 +306,7 @@ a {
   .neon-mist6 {
     top: -60%;
   }
+
   .Project-title {
     /* left: 730px; */
     font-size: 1.5rem;
