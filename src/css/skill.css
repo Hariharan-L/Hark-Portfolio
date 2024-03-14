@@ -110,13 +110,13 @@
   }
   .first-row {
     position: relative;
-    /* left: 20px; */
+    left: 20px;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
   .second-row {
     position: relative;
-    /* left: 20px; */
+    left: 20px;
   }
   .mongo-db {
     position: relative;

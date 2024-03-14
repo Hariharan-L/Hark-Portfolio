@@ -204,9 +204,9 @@
   .image .about-heading::before {
     display: none;
   }
-  .Education {
+  /* .Education {
     margin-right: 0;
-  }
+  } */
   .Studies {
     flex-direction: column;
   }
