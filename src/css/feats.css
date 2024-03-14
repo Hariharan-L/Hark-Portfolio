@@ -210,12 +210,13 @@
     margin-bottom: 0px;
   }
   .Feats-title {
-    left: 0%;
+    left: 5%;
     font-size: 1.7rem;
   }
   .Feats-Container {
     position: relative;
     top: -150px;
+    left: 5%;
     display: flex;
     flex-direction: column;
   }
