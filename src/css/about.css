@@ -200,6 +200,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    margin-top: 50px;
+    margin-left: 50px;
   }
   .about-heading::before {
     display: none;
