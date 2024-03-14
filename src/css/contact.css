@@ -5,22 +5,24 @@
   color: transparent;
   font-size: 1.8rem;
   position: relative;
-  top: 70px;
-  width: 125px;
-  left: 710px;
+  display: flex;
+  justify-content: center;
+  /* top: 70px; */
+  /* width: 125px; */
+  /* left: 710px; */
   z-index: 5;
 }
 .Contact-title::before {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 50px;
+  /* left: 50px; */
   width: 30px;
   border-bottom: 3px solid #d3d3d3;
   transition: 0.7s;
 }
 .Contact-title:hover::before {
-  left: 0;
+  /* left: 0; */
   width: 120px;
 }
 .information {
@@ -35,7 +37,7 @@
 }
 .Resume {
   position: relative;
-  left: 230px;
+  left: 15%;
   bottom: -200px;
   text-decoration: none;
   color: #fff;
@@ -55,7 +57,7 @@
   cursor: pointer;
   color: #fff;
   font-size: 1.3em;
-  left: 67%;
+  left: 60%;
   top: 160px;
   bottom: 0;
   padding: 10px;
@@ -89,16 +91,29 @@
 @media (max-width: 1024px) {
 }
 /*md*/
-@media (max-width: 768px) {
+@media (min-width: 476px) and (max-width: 800px) {
+  .Contact-title {
+    font-size: 1.6rem;
+  }
+  .e-mail {
+    left: 50%;
+    top: 165px;
+    font-size: 1.05rem;
+  }
+  .Resume {
+    font-size: 1.05rem;
+  }
+  .information {
+    font-size: 1.4rem;
+    padding-right: 30px;
+    left: 13px;
+    text-align: center;
+  }
 }
 /*sm*/
 @media (max-width: 475px) {
   .Contact-title {
     font-size: 1.6rem;
-    left: 145px;
-  }
-  .Contact-title::before {
-    left: 40px;
   }
   .Contact-title:hover::before {
     width: 105px;

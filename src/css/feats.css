@@ -3,10 +3,10 @@
   position: relative;
   width: 300px;
   padding: 100px;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
   top: -50px;
-  left: 500px;
+  left: 35%;
   filter: blur(250px);
   border-radius: 100% 0% 50% 50% / 0% 0% 100% 100%;
   background-color: #ff9900;
@@ -21,29 +21,29 @@
   position: relative;
   display: flex;
   justify-content: center;
-  /* top: -100px; */
-  /* left: 720px; */
-  width: 90px;
-  margin-bottom: 100px;
+  /* top: -100px;
+  left: 720px; */
+  /* width: 90px; */
+  margin-bottom: 200px;
 }
 .Feats-page {
   z-index: 1;
   position: relative;
   left: 40px;
-  top: -30px;
+  top: -130px;
   margin-bottom: 150px;
 }
 .Feats-title::before {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 30px;
+  /* left: 30px; */
   width: 20px;
   border-bottom: 3px solid #ffc517;
   transition: 0.7s;
 }
 .Feats-title:hover::before {
-  left: 0;
+  /* left: 0; */
   width: 75px;
 }
 .Feats-Container {
@@ -131,7 +131,7 @@
 }
 
 .text-area-presentation {
-  top: 260px;
+  top: 300px;
   left: 200px;
   transform: translate(-50%, -50%);
   color: #eaeaea;
@@ -154,9 +154,6 @@
     left: 0;
     top: -200px;
     filter: blur(180px);
-  }
-  .Feats-title {
-    /* left: 0; */
   }
   .Feats-page {
     left: 100px;

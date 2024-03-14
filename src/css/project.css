@@ -238,6 +238,7 @@ a {
   }
   .grid-projects {
     grid-gap: 10px;
+    left: 10%;
     grid-template-columns: 330px 330px;
     grid-template-rows: 300px 350px 250px 250px 250px;
     grid-template-areas:
