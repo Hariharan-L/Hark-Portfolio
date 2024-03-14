@@ -193,7 +193,7 @@
     background: #00e1ffc8;
     position: absolute;
     /* right: -30px; */
-    top: 40px;
+    top: 20%;
     font-size: 1.5rem;
     writing-mode: vertical-lr; /* Sets vertical writing mode, top to bottom */
     text-orientation: upright; /* Ensures upright text */
@@ -213,7 +213,7 @@
     flex-direction: column;
   }
   .Education-container-1 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .Education-container-1::before {
     top: 30px;
