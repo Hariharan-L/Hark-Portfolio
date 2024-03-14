@@ -144,7 +144,7 @@
   opacity: 1;
 }
 /*md*/
-@media (max-width: 864px) {
+@media (min-width: 476px) and (max-width: 864px) {
   .neon-mist4 {
     left: 200px;
     top: -200px;
@@ -164,6 +164,7 @@
   }
   .coding-container {
     overflow: visible;
+    font-size: 0.9rem;
   }
   .Feats-Container .presentation-container img {
     width: 320px;
@@ -171,6 +172,7 @@
   }
   .presentation-container {
     left: -2%;
+    font-size: 0.9rem;
     overflow: visible;
   }
   .presentation-container h3 {
@@ -185,8 +187,8 @@
   }
   .text-area-coding ul {
     position: relative;
-    padding-right: 55px;
-    left: 0;
+    padding-right: 60px;
+    left: -10px;
   }
   .text-area-presentation ul {
     position: relative;
@@ -213,7 +215,7 @@
   .Feats-Container {
     position: relative;
     top: -150px;
-    left: 5px;
+    /* left: 5px; */
     display: flex;
     flex-direction: column;
   }
@@ -221,11 +223,16 @@
     border-radius: 30px;
     width: 100%;
     height: 570px;
+    display: flex;
+    justify-content: center;
   }
   .text-area-presentation {
     top: 55%;
   }
   .presentation-container::before {
+    position: absolute;
+    display: flex;
+    justify-content: center;
     width: 85.5%;
   }
   .coding-container::before {
@@ -235,14 +242,16 @@
     border-radius: 30px;
     width: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
     margin-bottom: 50px;
   }
   .text-area-coding ul {
     position: relative;
-    left: -10px;
+    /* left: -10px; */
   }
   .text-area-presentation ul {
     position: relative;
-    left: -10px;
+    /* left: -10px; */
   }
 }
