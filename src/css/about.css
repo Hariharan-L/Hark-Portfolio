@@ -215,10 +215,10 @@
   .Education-title1 {
     font-size: 1.1rem;
   }
-  .Education-container-1::before {
+  .Education-title1::before {
     top: 30px;
   }
-  .Education-container-2::before {
+  .Education-title2::before {
     top: 30px;
   }
   .Education-container-1 p {
@@ -230,7 +230,7 @@
   .Education-title2 {
     font-size: 1.1rem;
   }
-  .Education-container-2:before {
+  .Education-title2:before {
     left: 0;
   }
 }
