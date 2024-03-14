@@ -4,14 +4,14 @@
   padding-top: 150px;
   top: -100px;
 }
-.image {
-  display: flex;
-}
-.image .about-heading {
+.about-heading {
+  /* display: flex;
+  justify-content: center; */
   position: relative;
-  top: 40px;
-  left: 250px;
   font-weight: 100;
+  /* top: 30%; */
+  bottom: -150px;
+  left: 45%;
   background: linear-gradient(to bottom, #00e1ff00 10%, #97f3ff);
   -webkit-background-clip: text;
   background-clip: text;
@@ -40,6 +40,7 @@
   --mask: radial-gradient(110px at 100% 100%, #ffffff00 98%, #000);
   -webkit-mask: var(--mask);
   mask: var(--mask);
+  z-index: -1;
 }
 .details {
   position: relative;
@@ -120,7 +121,6 @@
 }
 .Education-container-2 {
   font-size: 1.6rem;
-  /* margin-left: -15%; */
 }
 .Education-title2:before {
   content: "";

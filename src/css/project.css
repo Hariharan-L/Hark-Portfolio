@@ -43,32 +43,31 @@
   font-size: 1.8rem;
   position: relative;
   top: -100px;
-  padding-top: 70px;
-  width: 125px;
-  left: 710px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 .Project-title::before {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 50px;
+  /* left: 50px; */
   width: 30px;
   border-bottom: 3px solid #ff0000;
   transition: 0.7s;
 }
 .Project-title:hover::before {
-  left: 0;
+  /* left: 0; */
   width: 115px;
 }
 .grid-projects {
   position: relative;
   display: grid;
-  width: 800px;
-  left: 240px;
+  width: 55%;
+  left: 15%;
   grid-gap: 17px;
-  grid-template-columns: 300px 400px 400px;
-  grid-template-rows: 400px 300px 300px;
+  grid-template-columns: 35% 50% 50%;
+  grid-template-rows: 30% 25% 25%;
   grid-template-areas:
     "grid-box1 grid-box2 grid-box2"
     "grid-box3 grid-box3 grid-box5"
@@ -220,23 +219,24 @@ a {
 /*md*/
 @media (max-width: 864px) {
   .neon-mist5-1 {
-    width: 300px;
-    left: -30%;
-    top: -30%;
+    width: 200px;
+    left: -50%;
+    top: -20%;
     filter: blur(150px);
   }
   .neon-mist5-2 {
-    width: 300px;
-    right: -10%;
-    top: -30%;
+    width: 200px;
+    right: -60%;
+    top: -20%;
     filter: blur(150px);
+  }
+  .neon-mist6 {
+    top: -40%;
   }
   .Project-title {
     font-size: 1.8rem;
-    left: 45%;
   }
   .grid-projects {
-    left: 100px;
     grid-gap: 10px;
     grid-template-columns: 330px 330px;
     grid-template-rows: 300px 350px 250px 250px 250px;

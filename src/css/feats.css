@@ -27,7 +27,7 @@
 .Feats-page {
   z-index: 1;
   position: relative;
-  left: 40px;
+  /* left: 40px; */
   top: -30px;
   margin-bottom: 150px;
 }
@@ -158,7 +158,7 @@
     /* left: 320px; */
   }
   .Feats-page {
-    left: 50px;
+    /* left: 50px; */
     top: -150px;
   }
   .Feats-Container .coding-container img {
