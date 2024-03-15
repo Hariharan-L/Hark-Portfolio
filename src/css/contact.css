@@ -7,22 +7,17 @@
   position: relative;
   display: flex;
   justify-content: center;
-  /* top: 70px; */
-  /* width: 125px; */
-  /* left: 710px; */
   z-index: 5;
 }
 .Contact-title::before {
   content: "";
   position: absolute;
   bottom: 0;
-  /* left: 50px; */
   width: 30px;
   border-bottom: 3px solid #d3d3d3;
   transition: 0.7s;
 }
 .Contact-title:hover::before {
-  /* left: 0; */
   width: 120px;
 }
 .information {

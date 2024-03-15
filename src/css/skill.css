@@ -19,8 +19,6 @@
   top: -100px;
   display: flex;
   justify-content: center;
-  /* margin-left: 640px; */
-  /* margin-right: 640px; */
   background: linear-gradient(to top, rgb(228, 254, 255), rgb(0, 107, 68));
   -webkit-background-clip: text;
   background-clip: text;
@@ -29,7 +27,6 @@
 .title::before {
   content: "";
   position: absolute;
-  /* left: 90px; */
   bottom: 0;
   width: 50px;
   border-radius: 5px;
@@ -38,7 +35,6 @@
 }
 .title:hover::before {
   width: 230px;
-  /* left: 0; */
 }
 .Skill {
   position: relative;
@@ -73,7 +69,6 @@
   }
   .Skill img {
     position: relative;
-    /* left: 60px; */
     width: 55px;
     margin: 0 60px 60px 0;
   }
@@ -87,7 +82,6 @@
 @media (max-width: 475px) {
   .neon-mist3 {
     top: 400px;
-    /* left: 20%; */
   }
   .title {
     margin: 0;
@@ -97,7 +91,6 @@
   }
   .title::before {
     width: 40px;
-    left: 175px;
   }
   .Skill {
     left: 20px;

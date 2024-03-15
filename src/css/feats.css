@@ -21,9 +21,6 @@
   position: relative;
   display: flex;
   justify-content: center;
-  /* top: -100px;
-  left: 720px; */
-  /* width: 90px; */
   margin-bottom: 200px;
 }
 .Feats-page {
@@ -37,13 +34,11 @@
   content: "";
   position: absolute;
   bottom: 0;
-  /* left: 30px; */
   width: 20px;
   border-bottom: 3px solid #ffc517;
   transition: 0.7s;
 }
 .Feats-title:hover::before {
-  /* left: 0; */
   width: 75px;
 }
 .Feats-Container {
@@ -80,7 +75,7 @@
   border-radius: 30px;
   opacity: 0;
   transition: opacity 0.3s ease;
-  z-index: 1; /* Ensure the gradient layer is behind the text */
+  z-index: 1;
 }
 
 .coding-container:hover::before {
@@ -195,7 +190,6 @@
   .presentation-container {
     border-radius: 30px;
     width: 350px;
-    /* height: 750px; */
   }
   .coding-container {
     border-radius: 30px;

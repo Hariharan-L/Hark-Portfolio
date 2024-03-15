@@ -5,11 +5,8 @@
   top: -100px;
 }
 .about-heading {
-  /* display: flex; */
-  /* justify-content: center; */
   position: relative;
   font-weight: 100;
-  /* top: 30%; */
   bottom: -150px;
   left: 45%;
   background: linear-gradient(to bottom, #00e1ff00 10%, #97f3ff);
@@ -106,7 +103,6 @@
   content: "";
   position: absolute;
   top: 40px;
-  /* left: 0; */
   width: 40%;
   box-sizing: border-box;
   border-bottom: 3px solid #ff4ba5;
@@ -133,7 +129,6 @@
 }
 .Education-title2:hover:before {
   width: 200px;
-  /* right: 160px; */
 }
 .Education-container-2 p {
   color: #acacac;
@@ -205,18 +200,15 @@
   }
   .about-heading {
     background: #00e1ffc8;
-    /* position: absolute; */
     left: 250px;
     top: -10px;
-    /* top: 260px; */
     font-size: 1.5rem;
-    writing-mode: vertical-lr; /* Sets vertical writing mode, top to bottom */
-    text-orientation: upright; /* Ensures upright text */
+    writing-mode: vertical-lr;
+    text-orientation: upright;
     white-space: nowrap;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    /* bottom: -40px; */
   }
   .about-heading::before {
     display: none;

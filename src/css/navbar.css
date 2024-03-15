@@ -28,7 +28,6 @@ header {
 header .logo {
   display: flex;
   font-family: "Cinzel", serif;
-  /* font-family: "Dancing Script", cursive; */
   align-items: center;
   padding: 10px 0 10px 200px;
   font-weight: 200;

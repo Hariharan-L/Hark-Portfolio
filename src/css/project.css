@@ -51,13 +51,11 @@
   content: "";
   position: absolute;
   bottom: 0;
-  /* left: 50px; */
   width: 30px;
   border-bottom: 3px solid #ff0000;
   transition: 0.7s;
 }
 .Project-title:hover::before {
-  /* left: 0; */
   width: 115px;
 }
 .grid-projects {
@@ -308,12 +306,9 @@ a {
   }
 
   .Project-title {
-    /* left: 730px; */
     font-size: 1.5rem;
-    /* left: 150px; */
   }
   .Project-title::before {
-    /* left: 40px; */
     width: 20px;
   }
   .boxes {
