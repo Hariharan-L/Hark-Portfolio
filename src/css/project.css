@@ -1,7 +1,7 @@
 .neon-mist5-1 {
   position: absolute;
   background-color: #ff0000;
-  filter: blur(200px);
+  filter: blur(150px);
   z-index: -3;
   top: -23%;
   left: -40%;
@@ -12,7 +12,7 @@
 .neon-mist5-2 {
   position: absolute;
   background-color: #ff0000;
-  filter: blur(200px);
+  filter: blur(150px);
   z-index: -3;
   top: -25%;
   right: -60%;
@@ -30,7 +30,7 @@
   );
   filter: blur(1px);
   z-index: -2;
-  top: -53%;
+  top: -45%;
   left: -32%;
   width: 1000%;
   height: 350px;
