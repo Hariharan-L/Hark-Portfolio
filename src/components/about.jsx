@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import "../css/about.css";
 import hp from "../assets/Hark.jpg";
-
+ 
 const About = () => {
   return (
     <div id="about" className="container-about-1">
