@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import "../css/about.css";
-import hp from "../assets/IMG-20220710-WA0006.jpg";
+import hp from "../assets/Hark.jpg";
 
 const About = () => {
   return (
