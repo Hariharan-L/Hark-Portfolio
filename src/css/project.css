@@ -30,10 +30,14 @@
   );
   filter: blur(1px);
   z-index: -2;
-  top: -45%;
+  top: -40%;
   left: -32%;
   width: 1000%;
-  height: 350px;
+  height: 400px;
+}
+.project-total {
+  position: relative;
+  top: 200px;
 }
 .Project-title {
   background: linear-gradient(to bottom, #ff000095 70%, #ffffffa0);
@@ -70,7 +74,7 @@
     "grid-box1 grid-box2 grid-box2"
     "grid-box3 grid-box3 grid-box5"
     "grid-box4 grid-box4 grid-box5";
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 img {
   width: 100%;
@@ -105,7 +109,7 @@ img {
   height: 115%;
   position: relative;
   top: -70px;
-  z-index: 1;
+  /* z-index: -1; */
   border: none;
 }
 .grid-projects .grid-box4:hover {
@@ -114,6 +118,7 @@ img {
 
 .grid-projects .grid-box5 {
   grid-area: grid-box5;
+  z-index: 1;
 }
 .grid-box2 {
   background-color: black;
@@ -316,8 +321,12 @@ a {
   }
   .neon-mist6 {
     top: -60%;
+    height: 300px;
   }
-
+  .project-total {
+    position: relative;
+    top: -100px;
+  }
   .Project-title {
     font-size: 1.5rem;
   }

@@ -7,7 +7,7 @@ import project5 from "../assets/Foodwaste.jpg";
 import "../css/project.css";
 const Project = ()=>{
   return(
-    <div>
+    <div className="project-total">
       <Fade duration={2000} triggerOnce="true">
         <div id="project" className="Project-title">Project's</div>
       </Fade>

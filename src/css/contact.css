@@ -9,6 +9,10 @@
   justify-content: center;
   z-index: 5;
 }
+.contact-page{
+  position: relative;
+  /* top: 200px; */
+}
 .Contact-title::before {
   content: "";
   position: absolute;
@@ -32,7 +36,7 @@
 }
 .Resume {
   position: relative;
-  left: 15%;
+  left: 20%;
   bottom: -200px;
   text-decoration: none;
   color: #fff;
@@ -52,7 +56,7 @@
   cursor: pointer;
   color: #fff;
   font-size: 1.3em;
-  left: 60%;
+  left: 65%;
   top: 160px;
   bottom: 0;
   padding: 10px;
