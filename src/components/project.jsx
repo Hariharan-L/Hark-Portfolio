@@ -2,6 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import project2 from"../assets/Project2.png"
 import project3 from "../assets/web-app.webp";
+import project4 from "../assets/IEEE_PROJECT.png";
 import project5 from "../assets/Foodwaste.jpg";
 import "../css/project.css";
 const Project = ()=>{
@@ -25,16 +26,21 @@ const Project = ()=>{
           </a>
         </div>
         <div className="boxes grid-box3">
-          <a href="https://hark.web.app" target="blank">
+          <a href=" " target="blank">
             <img src={project3} alt=""/>
             <h3 className="text3-1">Chatting Web App</h3>
-            <h3 className="text3-2">A Web App for chatting build using REACT.</h3>
+            <h3 className="text3-2">Upcomming</h3>
           </a>
         </div>
         <div className="boxes grid-box4">
+        <a href=" " target="blank">
+            <img src={project4} alt=""/>
+            <h3 className="text3-1">IEEE Project</h3>
+            <h3 className="text3-2">on progress</h3>
+          </a>
         </div>
         <div className="boxes grid-box5">
-          <a href="https://hark.web.app" target="blank">
+          <a href="https://drive.google.com/drive/folders/1HxbEFAAXriKwDkHTpb7RLgMPCWsIS58H" target="blank">
             <img src={project5} alt=""/>
           </a>
             <h3 className="text5-1">Solid Waste Remover</h3>

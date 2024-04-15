@@ -65,7 +65,7 @@
   left: 15%;
   grid-gap: 17px;
   grid-template-columns: 35% 50% 50%;
-  grid-template-rows: 30% 25% 25%;
+  grid-template-rows: 23% 18% 24%;
   grid-template-areas:
     "grid-box1 grid-box2 grid-box2"
     "grid-box3 grid-box3 grid-box5"
@@ -101,7 +101,18 @@ img {
 }
 .grid-projects .grid-box4 {
   grid-area: grid-box4;
+  width: 115%;
+  height: 115%;
+  position: relative;
+  top: -70px;
+  z-index: 1;
+  border: none;
 }
+.grid-projects .grid-box4:hover{
+  border: none;
+  
+}
+
 .grid-projects .grid-box5 {
   grid-area: grid-box5;
 }
