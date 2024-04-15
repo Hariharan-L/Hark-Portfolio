@@ -108,9 +108,8 @@ img {
   z-index: 1;
   border: none;
 }
-.grid-projects .grid-box4:hover{
+.grid-projects .grid-box4:hover {
   border: none;
-  
 }
 
 .grid-projects .grid-box5 {
@@ -297,6 +296,9 @@ a {
     top: -70%;
     font-size: 1.1rem;
   }
+  .grid-projects .grid-box4:hover {
+    border: none;
+  }
 }
 /*sm*/
 @media (max-width: 475px) {
@@ -347,6 +349,9 @@ a {
       rgba(255, 31, 31, 0.251) 10%,
       #ff1e43 100%
     );
+  }
+  .grid-projects .grid-box4:hover {
+    border: none;
   }
   .text2-1 {
     top: -90px;
