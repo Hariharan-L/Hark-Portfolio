@@ -40,7 +40,7 @@
   top: 200px;
 }
 .Project-title {
-  background: linear-gradient(to bottom, #ff000095 70%, #ffffffa0);
+  background: linear-gradient(to top, #ff0000ab 20%, #ffffff00);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -56,7 +56,7 @@
   position: absolute;
   bottom: 0;
   width: 30px;
-  border-bottom: 3px solid #ff0000;
+  border-bottom: 3px solid #ff000073;
   transition: 0.7s;
 }
 .Project-title:hover::before {
@@ -115,7 +115,6 @@ img {
 .grid-projects .grid-box4:hover {
   border: none;
 }
-
 .grid-projects .grid-box5 {
   grid-area: grid-box5;
   z-index: 1;
