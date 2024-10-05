@@ -8,7 +8,7 @@ const Contact=()=>{
         <div id="contact" className="Contact-title">Contact</div>
       </Fade>
         <h5 className="information">This is all about my portfolio thank you for visiting💫</h5>
-        <a className="Resume" href="Hark's_Resume.pdf" download="Hark's_Resume.pdf">Downlod Resume</a>
+        <a className="Resume" href="HarkResume.pdf" download="HarkResume.pdf">Downlod Resume</a>
         <div className="e-mail">hariharanhark7@gmail.com</div>
       <Fade delay={1000} triggerOnce="true" duration={2000}>
         <div className="neon-mist7"></div>
